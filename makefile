@@ -21,3 +21,7 @@ migrations:
 # применить миграции
 migrate:
 	alembic upgrade head
+	
+# установка зависимостей
+install:
+	pip install -r requirements.txt
