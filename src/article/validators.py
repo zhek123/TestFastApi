@@ -1,6 +1,4 @@
 from fastapi import HTTPException, status
-from sqlalchemy.ext.asyncio import AsyncSession
-from src.article.repositories import ArticleRepository
 from uuid import UUID
 
 
